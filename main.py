@@ -9,7 +9,7 @@ def read_root():
 
 class User(BaseModel):
     username: str="Niraj"
-    email: str="niraj.221315@ncit.edu.np"
+    email: str="dayashankar.221215@ncit.edu.np"
 
 # POST endpoint
 @app.post("/create-user/")
